@@ -11,7 +11,7 @@ module.exports = {
   author: 'Mr. Chenzo',
   githubUrl: 'https://github.com/Chenzo/chenzo_blog',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'https://chenzo.netlify.com/',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: '1Chenzo',
