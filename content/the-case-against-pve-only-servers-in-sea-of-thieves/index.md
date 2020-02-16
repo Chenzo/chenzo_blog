@@ -3,7 +3,7 @@ title: "The case against PvE only servers in Sea of Thieves"
 description: "I would like to submit that PvE only (or private servers*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the…"
 date: "2020-02-07T20:45:49.488Z"
 categories: []
-published: false
+published: true
 ---
 
 I would like to submit that PvE only (or private servers\*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the demise of the game.

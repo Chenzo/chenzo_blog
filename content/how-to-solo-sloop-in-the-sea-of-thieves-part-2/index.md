@@ -7,6 +7,7 @@ published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039
 redirect_from:
   - /how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039
+order: 2
 ---
 
 Here’s the TL;DR tips right up front:

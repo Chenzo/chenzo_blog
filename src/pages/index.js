@@ -1,56 +1,80 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
+import React from "react"
+import { Link, graphql } from "gatsby"
+import Image from 'gatsby-image'
+import Layout from "../components/layout"
+/*  import Image from "../components/image"  */
+import SEO from "../components/seo"
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import Section from '../components/section'
-import Pills from '../components/pills'
-import MainBio from '../components/main-bio'
-import { formatPostDate, formatReadingTime } from '../utils/dates'
 
-import './blog-listing.css'
+export default ({ data }) => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <div>
+        <h1>Words</h1>
+        <Image
+          className="avatar"
+          fixed={data.avatar.childImageSharp.fixed}
+          alt="Mr. Chenzo"
+          style={{
+            marginBottom: 0,
+            minWidth: 150,
+            borderRadius: '100%',
+            border: '8px solid lavender',
+          }}
+          imgStyle={{
+            borderRadius: '50%',
+          }}
+        />
 
-const BlogIndexPage = ({ data: { allMdx } }) => (
-  <Layout>
-    <SEO />
-    <Section centered name="main-bio">
-      <MainBio />
-    </Section>
+        {data.avatar.childImageSharp.fixed.src}
 
-    {allMdx.nodes.map(post => (
-      <Section key={post.fields.slug} name={post.fields.slug} centered>
-        <Link to={post.fields.slug} className="blog-listing">
-          <h1>{post.frontmatter.title}</h1>
-          <p>
-            {formatPostDate(post.frontmatter.date)}
-            {` • ${formatReadingTime(post.timeToRead)}`}
-          </p>
-          <Pills items={post.frontmatter.categories} />
-          <p>{post.frontmatter.description}</p>
-        </Link>
-      </Section>
-    ))}
-  </Layout>
-)
-
-export default BlogIndexPage
-
+        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div key={node.id}>
+            <Link to={node.fields.slug}>
+              <h3>
+                {node.frontmatter.title}{" "}
+                <span>
+                  — {node.frontmatter.date}
+                </span>
+              </h3>
+              <p>Time To Read: {node.timeToRead}</p>
+              <p>{node.excerpt}</p>
+            </Link>
+          </div>
+        ))}
+      </div>
+    </Layout>
+  )
+}
 export const query = graphql`
-  query BlogIndex {
-    allMdx(
-      filter: { fields: { published: { eq: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      nodes {
-        fields {
-          slug
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
+          }
+          excerpt
+          timeToRead
         }
-        timeToRead
-        frontmatter {
-          title
-          description
-          categories
-          date(formatString: "MMMM DD, YYYY")
+      }
+    }
+    avatar: file(absolutePath: { regex: "/avatar.png/" }) {
+      childImageSharp {
+        fixed(width: 150, height: 150, quality: 90) {
+          base64
+          width
+          height
+          src
+          srcSet
         }
       }
     }

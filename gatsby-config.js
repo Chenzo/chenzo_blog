@@ -1,126 +1,60 @@
-const config = require('./config')
+const path = require(`path`)
 
 module.exports = {
-  siteMetadata: config,
+  siteMetadata: {
+    title: `Mr. Chenzo's Writings on the Sea Of Theives`,
+    description: `The musings about the Sea Of Thieves by the old scallywag, Chenzo`,
+    author: `@1Chenzo`,
+  },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sass`,
     {
-      resolve: 'gatsby-plugin-mdx',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        extensions: ['.md', '.mdx'],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 700,
-              backgroundColor: 'transparent',
-              showCaptions: true,
-            },
-          },
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-embed-video',
-          {
-            resolve: 'gatsby-remark-responsive-iframe',
-            options: {
-              wrapperStyle: 'margin-bottom: 1.0725rem',
-            },
-          },
-          'gatsby-remark-autolink-headers',
-          'gatsby-remark-smartypants',
-          {
-            resolve: '@weknow/gatsby-remark-twitter',
-            options: {
-              align: 'center',
-            },
-          },
-          'gatsby-remark-external-links',
-        ],
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/content/`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`, 
+    //`gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 700,
-              backgroundColor: 'transparent',
-              showCaptions: true,
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 1000,
             },
           },
         ],
       },
     },
+    `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'images',
-        path: `${__dirname}/src/images`,
+        name: `mr-chenzo-blog`,
+        short_name: `chenzoblog`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'blog',
-        path: `${__dirname}/content`,
-      },
-    },
-    'gatsby-plugin-netlify',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'Mr. Chenzo',
-        short_name: 'Mr. Chenzo',
-        start_url: '/',
-        background_color: '#001724',
-        theme_color: '#001724',
-        display: 'minimal-ui',
-        icon: 'src/images/icon.png', // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        feeds: [
-          {
-            serialize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map(edge => {
-                return {
-                  ...edge.node.frontmatter,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
-                }
-              })
-            },
-            query: `
-            {
-              allMdx(
-                filter: { fields: { published: { eq: true } } }
-                limit: 1000,
-                sort: {
-                  order: DESC,
-                  fields: [frontmatter___date]
-                }
-              ) {
-                edges {
-                  node {
-                    frontmatter {
-                      title
-                      description
-                      date
-                    }
-                    fields {
-                      slug
-                    }
-                    html
-                  }
-                }
-              }
-            }
-          `,
-            output: `rss.xml`,
-          },
-        ],
-      },
-    },
+    `gatsby-plugin-offline`,
+
   ],
 }

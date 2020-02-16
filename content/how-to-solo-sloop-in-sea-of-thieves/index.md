@@ -7,6 +7,7 @@ published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
 redirect_from:
   - /how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
+order: 1
 ---
 
 Here’s the TL;DR rules right up front:
