@@ -11,7 +11,6 @@ export default ({ data }) => {
     <Layout>
       <SEO title="Home" />
       <div>
-        <h1>Words</h1>
         <Image
           className="avatar"
           fixed={data.avatar.childImageSharp.fixed}
@@ -26,8 +25,6 @@ export default ({ data }) => {
             borderRadius: '50%',
           }}
         />
-
-        {data.avatar.childImageSharp.fixed.src}
 
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (

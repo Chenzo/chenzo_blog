@@ -14,8 +14,8 @@
     
 
     @include breakpoint($med) {
-        height: 40vh;
-        min-height: 350px;
+        height: 25vh;
+        min-height: 250px;
     }
 
     .imageholder {
@@ -37,21 +37,26 @@
         margin: 0;
         line-height: 0.9em;
         z-index: 2;
-        font-size: calc(100% + 7vw); 
+        font-size: calc(100% + 6vw); 
         @include breakpoint($large) {
             font-size: 8em;
         }
         @include breakpoint($med) {
-            font-size: calc(100% + 9vw); 
+            font-size: calc(100% + 7vw); 
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
         }
     }
 
     h3 {
-        font-size: 2em;
+        font-size: 1em;
         @include breakpoint($med) {
-            font-size: 3em;
+            font-size: 2em;
         }
-        margin: 0;
+        margin: 15px 0 0 0;
         padding: 0;
         text-shadow: 0px 0px 8px #fff;	
         //letter-spacing: 0.4em;

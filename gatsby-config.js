@@ -1,4 +1,4 @@
-const path = require(`path`)
+
 
 module.exports = {
   siteMetadata: {
@@ -24,7 +24,6 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`, 
-    //`gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -55,6 +54,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["windlass"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
   ],
 }

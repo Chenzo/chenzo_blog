@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family: 'windlass';
+    src:  url('/fonts/windlass.woff2') format('woff2'),
+            url('/fonts/windlass.woff') format('woff');
+    }
+    
