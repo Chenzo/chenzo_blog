@@ -1,36 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import headerStyles from "./header.module.scss"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
+import headerStyles from "./header.module.scss"
 
-    className={headerStyles.head}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+const Header = ({ siteTitle }) => (
+  <header className={`${headerStyles.head} dS`}>
+    <div className={`${headerStyles.imageholder} torn`}/>
+    <h1 className="dropshadow_effect_1">MR. CHENZO</h1>
+    <h3 className="windlass">Sea Of Thieves</h3>
+
   </header>
 )
 
