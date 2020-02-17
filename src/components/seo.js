@@ -1,4 +1,4 @@
-/**
+ /**
  * SEO component that queries for data with
  *  Gatsby's useStaticQuery React hook
  *
@@ -24,8 +24,6 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-
-  console.log(site.siteMetadata.title)
 
   const metaDescription = description || site.siteMetadata.description
 

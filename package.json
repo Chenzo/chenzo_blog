@@ -1,30 +1,29 @@
 {
-  "name": "chenzo-blog",
+  "name": "gatsby-starter-default",
   "private": true,
-  "description": "Mr Chenzo's blog about the Sea Of Theives",
-  "version": "0.8.0",
-  "author": "Chenzo",
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.41",
-    "gatsby-plugin-manifest": "^2.2.41",
-    "gatsby-plugin-mdx": "^1.0.73",
+    "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.34",
     "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-sass": "^2.1.28",
-    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-images": "^3.1.44",
-    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-remark": "^2.6.51",
-    "gatsby-transformer-sharp": "^2.3.14",
-    "node-sass": "^4.13.1",
+    "gatsby-transformer-sharp": "^2.3.13",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "gatsby-plugin-sass": "^2.1.28",
+    "node-sass": "^4.13.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -36,14 +35,11 @@
     "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
     "lint-staged": "^9.2.1",
     "pre-commit": "^1.2.2",
-    "prettier": "^1.19.1",
+    "prettier": "^1.17.0",
     "wait-for-netlify-preview": "^1.2.1"
   },
   "keywords": [
-    "gatsby",
-    "netlify",
-    "sea of theives",
-    "sot"
+    "gatsby"
   ],
   "license": "MIT",
   "scripts": {
@@ -52,7 +48,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",

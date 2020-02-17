@@ -1,32 +1,16 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import Image from 'gatsby-image'
+import { Link, graphql  } from "gatsby"
+
 import Layout from "../components/layout"
-/*  import Image from "../components/image"  */
+import Avatar from "../components/avatar"
 import SEO from "../components/seo"
 
+const IndexPage = ({ data }) => (
+  <Layout headTitle="Musings from the Sea Of Thieves">
+    <SEO title="Home" />
+    <Avatar />
 
-export default ({ data }) => {
-  return (
-    <Layout>
-      <SEO title="Home" />
-      <div>
-        <Image
-          className="avatar"
-          fixed={data.avatar.childImageSharp.fixed}
-          alt="Mr. Chenzo"
-          style={{
-            marginBottom: 0,
-            minWidth: 150,
-            borderRadius: '100%',
-            border: '8px solid lavender',
-          }}
-          imgStyle={{
-            borderRadius: '50%',
-          }}
-        />
-
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+    <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link to={node.fields.slug}>
@@ -41,10 +25,11 @@ export default ({ data }) => {
             </Link>
           </div>
         ))}
-      </div>
-    </Layout>
-  )
-}
+  </Layout>
+)
+
+
+
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -77,3 +62,5 @@ export const query = graphql`
     }
   }
 `
+
+export default IndexPage

@@ -1,5 +1,3 @@
-
-
 module.exports = {
   siteMetadata: {
     title: `Mr. Chenzo's Writings on the Sea Of Theives`,
@@ -8,6 +6,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,8 +27,6 @@ module.exports = {
         path: `${__dirname}/content/`,
       },
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`, 
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -40,28 +43,21 @@ module.exports = {
         ],
       },
     },
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `mr-chenzo-blog`,
-        short_name: `chenzoblog`,
+        name: `MrChenzo`,
+        short_name: `MrChenzo`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffffff`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/avatar.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        custom: {
-          families: ["windlass"],
-          urls: ["/fonts/fonts.css"],
-        },
-      },
-    },
+    `gatsby-plugin-react-helmet`,
   ],
 }
