@@ -8,7 +8,7 @@ function Avatar(props) {
   let imgw = 150;
 
   if (props.width) {
-    imgw = props.width;
+    imgw = parseInt(props.width, 10);
   }
 
   // fixed(width: 150, height: 150, quality: 80) {

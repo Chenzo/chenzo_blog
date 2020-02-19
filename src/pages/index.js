@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <Layout headTitle="Musings from the Sea Of Thieves">
     <SEO title="Home" />
+    
     <Avatar />
 
     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>

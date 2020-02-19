@@ -36,7 +36,9 @@ export default ({ siteTitle, isBlogPost }) => {
         {/* <h1 className="dropshadow_effect_1"><Link to="/">MR. CHENZO</Link></h1> */}
         <h1 className="windlass">{siteTitle}</h1>
         <div className={`${headerStyles.avatar_holder}`}>
-          <Avatar width="100" />
+          <Link to="/">
+            <Avatar width="100" />
+          </Link>
         </div>
         
       </header>

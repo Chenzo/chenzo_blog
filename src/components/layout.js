@@ -1,10 +1,12 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children, headTitle, isBlogPost }) => {
   /* const data = useStaticQuery(graphql`
@@ -20,19 +22,11 @@ const Layout = ({ children, headTitle, isBlogPost }) => {
 
   return (
     <>
-      <Header siteTitle={headTitle} isBlogPost={isBlogPost}/>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <Header siteTitle={headTitle} isBlogPost={isBlogPost} />
+      <div className="pageMargins">
         <main>{children}</main>
-        <footer>
-          FOOTERS
-        </footer>
       </div>
+      <Footer />
     </>
   )
 }
