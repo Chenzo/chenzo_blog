@@ -1,19 +1,26 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from 'gatsby-image'
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 
 function Avatar(props) {
+  let imgw = 150;
+
+  if (props.width) {
+    imgw = props.width;
+  }
+
+  // fixed(width: 150, height: 150, quality: 80) {
 
 const vdata = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "avatar.png" }) {
         childImageSharp {
-          fluid(maxWidth: 150) {
+          fluid(maxWidth: 100) {
             ...GatsbyImageSharpFluid
           }
-          fixed(width: 150, height: 150, quality: 80) {
+          fixed {
             base64
             width
             height
@@ -26,7 +33,7 @@ const vdata = useStaticQuery(graphql`
   `)
 
 
-  const data = graphql`
+/*   const data = graphql`
     query {
       avatar: allFile(filter: {absolutePath: {regex: "/avatar.png/"}}) {
         edges {
@@ -45,19 +52,22 @@ const vdata = useStaticQuery(graphql`
         }
       }
     }
-  ` 
+  `  */
 
   return (
     <div className="avatar_circle">
       {/* <Img fluid={vdata.placeholderImage.childImageSharp.fluid} /> */}
+      {/* fixed={vdata.placeholderImage.childImageSharp.fixed} */}
+
       <Image
         fixed={vdata.placeholderImage.childImageSharp.fixed}
         alt="Mr. Chenzo"
         style={{
           marginBottom: 0,
-          minWidth: 150,
           borderRadius: '100%',
-          border: '8px solid lavender',
+          border: '4px solid lavender',
+          width: imgw,
+          height: imgw
         }}
         imgStyle={{
           borderRadius: '50%',

@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 
 import React from "react"
-// import Image from 'gatsby-image'
+import Avatar from "./avatar"
 
 import headerStyles from "./header.module.scss"
 
@@ -35,6 +35,10 @@ export default ({ siteTitle, isBlogPost }) => {
         <div className={`${headerStyles.imageholder} torn`} />
         {/* <h1 className="dropshadow_effect_1"><Link to="/">MR. CHENZO</Link></h1> */}
         <h1 className="windlass">{siteTitle}</h1>
+        <div className={`${headerStyles.avatar_holder}`}>
+          <Avatar width="100" />
+        </div>
+        
       </header>
     )
   } 

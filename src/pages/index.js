@@ -11,20 +11,20 @@ const IndexPage = ({ data }) => (
     <Avatar />
 
     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link to={node.fields.slug}>
-              <h3>
-                {node.frontmatter.title}{" "}
-                <span>
-                  — {node.frontmatter.date}
-                </span>
-              </h3>
-              <p>Time To Read: {node.timeToRead}</p>
-              <p>{node.excerpt}</p>
-            </Link>
-          </div>
-        ))}
+    {data.allMarkdownRemark.edges.map(({ node }) => (
+      <div key={node.id}>
+        <Link to={node.fields.slug}>
+          <h3>
+            {node.frontmatter.title}{" "}
+            <span>
+              — {node.frontmatter.date}
+            </span>
+          </h3>
+          <p>Time To Read: {node.timeToRead}</p>
+          <p>{node.excerpt}</p>
+        </Link>
+      </div>
+    ))}
   </Layout>
 )
 

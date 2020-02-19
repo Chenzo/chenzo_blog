@@ -77,6 +77,18 @@
         min-height:auto;
     }
 
+    .avatar_holder {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+
+        .gatsby-image-wrapper {
+            width: 100px;
+            height: 100px;
+            min-width: 100px;
+        }
+    }
+
 
     h1 {
         z-index: 2;
