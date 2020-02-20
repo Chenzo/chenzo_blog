@@ -8,6 +8,7 @@ canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-sea-of-thieves-c
 redirect_from:
   - /how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
 order: 1
+author: chenzo
 ---
 
 Here’s the TL;DR rules right up front:
@@ -133,9 +134,4 @@ _How to sail alone and survive, part 2._medium.com](https://medium.com/@Chenzo/h
 
 > **“fair winds and following seas”**
 
-Find me on Twitter:
 
-[**Chenzo (@1Chenzo) | Twitter**  
-_The latest Tweets from Chenzo (@1Chenzo). HTML Wrangler, CSS Hack, Javascript Apologist, Video Game Snob, Dad - all…_twitter.com](https://twitter.com/1Chenzo "https://twitter.com/1Chenzo")[](https://twitter.com/1Chenzo)
-
-Watch me sail alone on Twitch:

@@ -71,12 +71,6 @@ h5 {
 }
 
 
-
-a, a:visited {
-    color: $clr_red;
-}
-
-
 .page-margins {
     width: 96%;
     max-width: 1280px;
@@ -149,4 +143,33 @@ clip-path: polygon(0% 0%, 12% 2%, 12% 0%, 37% 1%, 53% 0%, 52% 3%, 57% 1%, 80% 0%
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+.seperator {
+    text-align: center;
+    position: relative;
+    margin: 25px 0;
+
+    img {
+        position: absolute;
+        display: block;
+        top: -24px;
+        left: 50%;
+        margin-left: -24px;
+    }
+
+    hr.mid {
+        width: 75%;
+        border: 0;
+        height: 2px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(214,181,62,0)), color-stop(rgba(214,181,62,0.75)), to(rgba(214,181,62,0)));
+        background-image: linear-gradient(to right, rgba(214,181,62,0), rgba(214,181,62,0.75), rgba(214,181,62,0));
+
+        &.green {
+            background-image: linear-gradient(to right, rgba(14, 42, 39,0), rgba(14, 42, 39,0.75), rgba(14, 42, 39,0));
+        }
+    }
+
+
 }
