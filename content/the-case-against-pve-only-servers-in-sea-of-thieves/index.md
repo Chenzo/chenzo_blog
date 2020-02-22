@@ -82,7 +82,7 @@ It IS much easier, now. But it is nothing compared to being able to jump into a 
 
 Seriously, PvE only servers should be the LAST thing they should work on, and then have to worry about supporting.
 
-![omg, please let me just name my ship!The Killer Whale](./asset-2.jpeg)
+![omg, please let me just name my ship!](./asset-2.jpeg)
 
 Bug fixes, more Tall Tales, Captaincy update… _literally anything else_. Let’s fix and improve the game we all love instead of making a new one. 
 
@@ -92,7 +92,7 @@ Bug fixes, more Tall Tales, Captaincy update… _literally anything else_. Let�
 
 Take a look at this image:
 
-![All this treasure and no one to try and steal it.Tons of treasure easily acquired without any danger.](./asset-3.jpeg)
+![All this treasure and no one to try and steal it. Tons of loot easily acquired without any danger.](./asset-3.jpeg)
 
 There’s no way you could put all this down on an island in a real server. The time alone required to put it here is mind-boggling and there’s no way someone wouldn’t come by and see it and then spend the rest of their time trying to steal even a part of it. 
 

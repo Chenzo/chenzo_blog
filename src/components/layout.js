@@ -23,7 +23,7 @@ const Layout = ({ children, headTitle, isBlogPost }) => {
   return (
     <>
       <Header siteTitle={headTitle} isBlogPost={isBlogPost} />
-      <div className="pageMargins">
+      <div className="pageMargins-off">
         <main>{children}</main>
       </div>
       <Footer />

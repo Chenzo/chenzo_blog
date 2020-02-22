@@ -6,7 +6,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 
@@ -38,11 +38,10 @@ h1 {
 
 h2 {
     font-size: 50px;
-    line-height: 46px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2em;
 }
 
 h5 {
@@ -161,4 +160,15 @@ a {
     }
 
 
+}
+
+
+figcaption {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 1.4;
+    color: rgba(0,0,0,.68);
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 14px;
 }

@@ -14,7 +14,7 @@ export default ({ data }) => {
     <Layout headTitle={post.frontmatter.title} isBlogPost="true">
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       
-      <div className="postMeta">
+      <div className="postMeta pageMargins">
         <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4>
         <div class="text">
         Written By: Mr. Chenzo<br/>
@@ -22,7 +22,7 @@ export default ({ data }) => {
         </div>
         <Avatar width="100" />
       </div>
-      <div>
+      <div className="pageMargins">
         {/* <h1>{post.frontmatter.title}</h1> */}
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
