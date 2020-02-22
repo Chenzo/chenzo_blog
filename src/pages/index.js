@@ -8,20 +8,18 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => (
   <Layout headTitle="Musings from the Sea Of Thieves">
     <SEO title="Home" />
-    
-    <Avatar />
 
-    <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+
+    {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id}>
-        <Link to={node.fields.slug}>
+        <Link to={node.fields.slug} className="singlePost">
           <h3>
             {node.frontmatter.title}{" "}
-            <span>
-              — {node.frontmatter.date}
-            </span>
           </h3>
-          <p>Time To Read: {node.timeToRead}</p>
+          <span>
+              {node.frontmatter.date} | Time To Read: {node.timeToRead}
+            </span>
           <p>{node.excerpt}</p>
         </Link>
       </div>

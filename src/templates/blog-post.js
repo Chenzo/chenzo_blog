@@ -1,7 +1,8 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Avatar from "../components/avatar"
 import { formatPostDate, formatReadingTime } from '../utils/dates'
 
 import "./blog-post.scss";
@@ -12,9 +13,14 @@ export default ({ data }) => {
   return (
     <Layout headTitle={post.frontmatter.title} isBlogPost="true">
       <SEO title={post.frontmatter.title} description={post.excerpt} />
+      
       <div className="postMeta">
+        <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4>
+        <div class="text">
         Written By: Mr. Chenzo<br/>
         {formatPostDate(post.frontmatter.date)} {` • ${formatReadingTime(post.timeToRead)}`}
+        </div>
+        <Avatar width="100" />
       </div>
       <div>
         {/* <h1>{post.frontmatter.title}</h1> */}

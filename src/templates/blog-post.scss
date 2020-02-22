@@ -7,8 +7,22 @@
     line-height: 20px;
     text-align: right;
     margin-top: -28px;
-}
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    div.text {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
 
-ol {
-    list-style-type: decimal;
+    h4 {
+        font-size: 1em;
+        opacity: 0.4;
+        text-transform: uppercase;
+
+        a {
+            text-decoration: underline;
+        }
+    }
 }

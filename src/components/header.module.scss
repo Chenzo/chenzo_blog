@@ -3,7 +3,7 @@
 
 
 .head, .bloghead {
-    height: 25vh;
+    //height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
     position: relative;
 
     @include breakpoint($med) {
-        height: 25vh;
+        //height: 25vh;
         min-height: 250px;
     }
 
@@ -34,10 +34,18 @@
 
     h1 {
         text-transform: uppercase;
-        padding: 0;
-        margin: 0;
-        line-height: 0.9em;
+        font-size: 3.5em;
         z-index: 2;
+        padding: 40px 100px;
+        text-align: center;
+        text-shadow: 0px 0px 8px #fff;	
+        color: #000;
+        text-shadow: 0px 0px 8px #fff;	
+        //letter-spacing: 0.4em;
+        line-height: 1.2em;
+        color: #000;
+        /* 
+        
         font-size: calc(100% + 6vw); 
         @include breakpoint($large) {
             font-size: 8em;
@@ -49,7 +57,13 @@
         a {
             text-decoration: none;
             color: inherit;
-        }
+        } */
+    }
+
+    .avatar_holder {
+        position: absolute;
+        z-index: 10;
+        bottom: -50px;
     }
 
     h3 {
@@ -77,6 +91,7 @@
         height: auto;
         min-height:auto;
     }
+    padding: 20px 100px;
 
     .avatar_holder {
         position: absolute;
@@ -95,12 +110,13 @@
         z-index: 2;
         font-size: 3em;
         color: black;
-        margin: 20px 140px;
+        margin: 20px;
         font-weight: normal;
         text-shadow: 0px 0px 8px #fff;	
         color: #000;
         z-index: 2;
-        font-variant: small-caps;
+        text-align: center;
+        //font-variant: small-caps;
         a {
             text-decoration: none;
             color: inherit;

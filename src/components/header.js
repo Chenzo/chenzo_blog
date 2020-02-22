@@ -23,9 +23,11 @@ export default ({ siteTitle, isBlogPost }) => {
   let returnedHeader = (
     <header className={`${headerStyles.head} dS`}>
       <div className={`${headerStyles.imageholder} torn`} />
-      <h1 className="dropshadow_effect_1"><Link to="/">MR. CHENZO</Link></h1>
-      <h3 className="windlass">{siteTitle}</h3>
-      <p>Vince</p>
+      {/* <h1 className="dropshadow_effect_1"><Link to="/">MR. CHENZO</Link></h1> */}
+      <h1 className="windlass">{siteTitle}</h1>
+      <div className={`${headerStyles.avatar_holder}`}>
+        <Avatar width="120" />
+      </div>
     </header>
   )
 
@@ -35,11 +37,11 @@ export default ({ siteTitle, isBlogPost }) => {
         <div className={`${headerStyles.imageholder} torn`} />
         {/* <h1 className="dropshadow_effect_1"><Link to="/">MR. CHENZO</Link></h1> */}
         <h1 className="windlass">{siteTitle}</h1>
-        <div className={`${headerStyles.avatar_holder}`}>
+        {/* <div className={`${headerStyles.avatar_holder}`}>
           <Link to="/">
             <Avatar width="100" />
           </Link>
-        </div>
+        </div> */}
         
       </header>
     )

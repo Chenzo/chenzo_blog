@@ -1,50 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
 
 /*! comments that start like this one with the !bang don't get minified... */
 body {
     background: $off_white;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
-    font-family: 'Roboto', sans-serif;
-    
-    overflow-x: hidden;
-
-    &.modal-open {
-        overflow: hidden;
-    }
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 
 
-ul.list_unstyled {
-    list-style-type:none;
-    padding: 0;
-    margin: 0;
-    li {
-        padding: 0;
-        margin: 0;
-    }
+p {
+    line-height: 1.5em;
+    margin: 1.4em 0;
 }
 
-
-.centerOversized {
-	position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
+hr {
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 90%;
+    margin: 1.6em auto;
 }
 
-
-a.fixed_anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
-}
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1.windlass, h2.windlass, h3.windlass, h4.windlass, h5.windlass {
@@ -68,6 +48,15 @@ h3 {
 h5 {
     font-size: 20px;
     font-weight: 300;
+}
+
+
+ol {
+    list-style-type: decimal;
+    margin: 1em 2em;
+    li {
+        margin-bottom: 0.5em;
+    }
 }
 
 

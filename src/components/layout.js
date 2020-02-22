@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 
 import Header from "./header"
 import Footer from "./footer"
-import "./layout.css"
+//import "./layout.css"
 import "./layout.scss"
 
 const Layout = ({ children, headTitle, isBlogPost }) => {
