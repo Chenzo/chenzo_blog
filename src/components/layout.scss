@@ -8,7 +8,7 @@
 }
 
 blockquote {
-    font-size: 1.3em;
+    font-size: 1em;
     font-style: italic;
     letter-spacing: -.36px;
     line-height: 44.4px;
@@ -16,8 +16,13 @@ blockquote {
     color: rgba(0,0,0,.68);
     border-left: 3px solid rgba(0,0,0,.84);
     padding-left: 20px;
-    margin: 55px 0 33px -23px;
+    margin: 25px 0 33px -8px;
     padding-bottom: 2px;
+
+    @include breakpoint($med) {
+        font-size: 1.3em;
+        margin: 55px 0 33px -23px;
+    }
 
     p {
         margin: 0;

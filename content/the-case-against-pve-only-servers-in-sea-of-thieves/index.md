@@ -2,7 +2,7 @@
 title: "The case against PvE only servers in Sea of Thieves"
 description: "I would like to submit that PvE only (or private servers*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the…"
 date: "2020-02-07T20:45:49.488Z"
-categories: []
+categories: [opinion]
 published: true
 ---
 
@@ -124,7 +124,4 @@ _\*caveat: I’m all for them releasing private servers for content creators for
 
 > **“fair winds and following seas”**
 
-I’ll happily have a civilized discussion about this in the comments or hit me up on the twitters: 
-
-[**Chenzo**  
-_The latest Tweets from Chenzo (@1Chenzo). Part-Time Pirate on @seaofthieves ☠️ Watch: https://t.co/z8wC4u4K4h ☠️…_twitter.com](https://twitter.com/1chenzo "https://twitter.com/1chenzo")[](https://twitter.com/1chenzo)
+I’ll happily have a civilized discussion about this in the comments or hit me up on the twitters: [Chenzo01](https://twitter.com/1chenzo)

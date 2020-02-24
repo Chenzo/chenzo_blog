@@ -2,7 +2,7 @@
 title: "Galleon, Sloop, Skellion, Fort, Brig, Kraken, Loot"
 description: "The Continuing Tales from the Deck of the Holy Bartender…"
 date: "2019-07-11T15:43:12.394Z"
-categories: []
+categories: [tales]
 published: true
 canonical_link: https://medium.com/@Chenzo/galleon-sloop-skellion-fort-brig-kraken-loot-d3da009d0f63
 redirect_from:
@@ -56,14 +56,3 @@ We sail to Keel Hauled, open the vault, load up and are able to sell the loot wi
 ---
 
 > **“Fair winds and flowing seas”**
-
-Find me on Twitter:
-
-[**Chenzo (@1Chenzo) | Twitter**  
-_The latest Tweets from Chenzo (@1Chenzo). Part-Time Pirate on @seaofthieves; Full-Time HTML Wrangler, CSS Hack…_twitter.com](https://twitter.com/1Chenzo "https://twitter.com/1Chenzo")[](https://twitter.com/1Chenzo)
-
-Or join us on Capt. Logun’s Keelhauled PodCast Discord: [https://discordapp.com/invite/V7Cd4Kp](https://discordapp.com/invite/V7Cd4Kp)
-
----
-
-[https://www.chenzorama.com/sea-of-thieves](https://www.chenzorama.com/sea-of-thieves)

@@ -2,7 +2,7 @@
 title: "How to Solo Sloop in Sea of Thieves"
 description: "Learn to sail alone and survive"
 date: "2018-09-22T19:01:26.785Z"
-categories: []
+categories: [guide]
 published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
 redirect_from:
@@ -127,8 +127,7 @@ from [**ValyrianSteelYoGirl**](https://www.reddit.com/r/Seaofthieves/comments/9i
 
 Part Two is now online. Read it here:
 
-[**How to Solo Sloop in the Sea Of Thieves Part 2**  
-_How to sail alone and survive, part 2._medium.com](https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039 "https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039")[](https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039)
+[**How to Solo Sloop in the Sea Of Thieves Part 2**](/how-to-solo-sloop-in-the-sea-of-thieves-part-2/)
 
 ---
 
