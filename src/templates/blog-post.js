@@ -15,12 +15,14 @@ export default ({ data }) => {
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       
       <div className="postMeta pageMargins">
-        <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4>
+        {/* <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4> */}
         <div class="text">
         Written By: Mr. Chenzo<br/>
         {formatPostDate(post.frontmatter.date)} {` • ${formatReadingTime(post.timeToRead)}`}
         </div>
-        <Avatar width="100" />
+        <Link to="/">
+          <Avatar width="100" />
+        </Link>
       </div>
       <div className="pageMargins">
         {/* <h1>{post.frontmatter.title}</h1> */}

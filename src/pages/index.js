@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => (
   <Layout headTitle="Musings from the Sea Of Thieves">
     <SEO title="Home" />
 
-
+  <div className="post_container">
     {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <article key={node.id} className="one_blog_post">
@@ -24,6 +24,7 @@ const IndexPage = ({ data }) => (
         </Link>
       </article>
     ))}
+    </div>
   </Layout>
 )
 

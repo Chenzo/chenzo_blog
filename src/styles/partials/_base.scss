@@ -2,11 +2,14 @@
 
 /*! comments that start like this one with the !bang don't get minified... */
 body {
-    background: $off_white;
+    background: #e2dfd8; //$off_white;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
     font-family: 'Open Sans', sans-serif;
-    font-size: 21px;
+    font-size: 18px;
+    @include breakpoint($med) {
+        font-size: 21px;
+    }
 }
 
 
@@ -41,7 +44,10 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.4em;
+    @include breakpoint($med) {
+        font-size: 2em;
+    }
 }
 
 h5 {
@@ -94,7 +100,7 @@ ol {
 
 
 //only bottom
-.torn {
+.torn, .torn_1 {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 96% 100%, 93% 97%, 92% 100%, 87% 100%, 75% 98%, 67% 99%, 66% 96%, 63% 100%, 54% 100%, 53% 100%, 42% 96%, 39% 99%, 38% 100%, 33% 100%, 31% 98%, 21% 98%, 10% 100%, 10% 95%, 8% 99%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 96% 100%, 93% 97%, 92% 100%, 87% 100%, 75% 98%, 67% 99%, 66% 96%, 63% 100%, 54% 100%, 53% 100%, 42% 96%, 39% 99%, 38% 100%, 33% 100%, 31% 98%, 21% 98%, 10% 100%, 10% 95%, 8% 99%, 0% 100%);
 }

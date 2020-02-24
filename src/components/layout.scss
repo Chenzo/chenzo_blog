@@ -2,7 +2,7 @@
 
 
 .pageMargins {
-    margin: 60px auto;
+    margin: 0 auto;
     max-width: 800px;
     padding: 0 1.0875rem 1.45rem;
 }
@@ -26,6 +26,11 @@ blockquote {
 
 main {
     margin-top: 40px;
+}
+
+
+.post_container {
+    margin-top: 90px;
 }
 
 .one_blog_post {
