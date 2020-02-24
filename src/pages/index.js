@@ -1,58 +1,66 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
+import React from "react"
+import { Link, graphql  } from "gatsby"
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import Section from '../components/section'
-import Pills from '../components/pills'
-import MainBio from '../components/main-bio'
-import { formatPostDate, formatReadingTime } from '../utils/dates'
+import Layout from "../components/layout"
+import Avatar from "../components/avatar"
+import SEO from "../components/seo"
 
-import './blog-listing.css'
+const IndexPage = ({ data }) => (
+  <Layout headTitle="Musings from the Sea Of Thieves">
+    <SEO title="Home" />
 
-const BlogIndexPage = ({ data: { allMdx } }) => (
-  <Layout>
-    <SEO />
-    <Section centered name="main-bio">
-      <MainBio />
-    </Section>
-
-    {allMdx.nodes.map(post => (
-      <Section key={post.fields.slug} name={post.fields.slug} centered>
-        <Link to={post.fields.slug} className="blog-listing">
-          <h1>{post.frontmatter.title}</h1>
-          <p>
-            {formatPostDate(post.frontmatter.date)}
-            {` • ${formatReadingTime(post.timeToRead)}`}
-          </p>
-          <Pills items={post.frontmatter.categories} />
-          <p>{post.frontmatter.description}</p>
+  <div className="post_container">
+    {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
+    {data.allMarkdownRemark.edges.map(({ node }) => (
+      <article key={node.id} className="one_blog_post">
+        <Link to={node.fields.slug} className="singlePost">
+          <h3>
+            {node.frontmatter.title}{" "}
+          </h3>
+          <span>
+              {node.frontmatter.date} | Time To Read: {node.timeToRead}
+            </span>
+          <p>{node.excerpt}</p>
         </Link>
-      </Section>
+      </article>
     ))}
+    </div>
   </Layout>
 )
 
-export default BlogIndexPage
+
 
 export const query = graphql`
-  query BlogIndex {
-    allMdx(
-      filter: { fields: { published: { eq: true } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      nodes {
-        fields {
-          slug
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
+          }
+          excerpt
+          timeToRead
         }
-        timeToRead
-        frontmatter {
-          title
-          description
-          categories
-          date(formatString: "MMMM DD, YYYY")
+      }
+    }
+    avatar: file(absolutePath: { regex: "/avatar.png/" }) {
+      childImageSharp {
+        fixed(width: 150, height: 150, quality: 90) {
+          base64
+          width
+          height
+          src
+          srcSet
         }
       }
     }
   }
 `
+
+export default IndexPage

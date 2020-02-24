@@ -1,129 +1,47 @@
-import React from 'react'
+import React from "react"
 import { Link, graphql } from 'gatsby'
-import { MDXRenderer } from 'gatsby-plugin-mdx'
-
-import SEO from '../components/seo'
-import Pills from '../components/pills'
-import Bio from '../components/bio'
-import Embed from '../components/embed'
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Avatar from "../components/avatar"
 import { formatPostDate, formatReadingTime } from '../utils/dates'
 
-import './blog-post.css'
+import "./blog-post.scss";
 
-export default function PageTemplate({ data: { mdx, site }, pageContext }) {
-  const { previous, next } = pageContext
-  const publicUrl = `${site.siteMetadata.siteUrl}${mdx.fields.slug}`
+export default ({ data }) => {
+  const post = data.markdownRemark
 
   return (
-    <div>
-      <SEO
-        title={mdx.frontmatter.title}
-        description={mdx.frontmatter.description}
-        canonicalLink={mdx.frontmatter.canonical_link}
-        keywords={mdx.frontmatter.categories || []}
-        meta={[
-          {
-            name: 'twitter:label1',
-            content: 'Reading time',
-          },
-          {
-            name: 'twitter:data1',
-            content: `${mdx.timeToRead} min read`,
-          },
-        ]}
-      />
-      <section className="center blog">
-        <article className="container small">
-          <header>
-            <h1>
-              <Link to="/">«</Link> {mdx.frontmatter.title}
-            </h1>
-            <p>
-              {formatPostDate(mdx.frontmatter.date)}
-              {` • ${formatReadingTime(mdx.timeToRead)}`}
-            </p>
-            <Pills items={mdx.frontmatter.categories} />
-          </header>
-
-          <MDXRenderer scope={{ Embed }}>{mdx.body}</MDXRenderer>
-        </article>
-        <footer className="container small">
-          <small>
-            <a
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              href={`https://twitter.com/search?q=${publicUrl}`}
-            >
-              Discuss on Twitter
-            </a>{' '}
-            &middot;{' '}
-            <a
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              href={`${site.siteMetadata.githubUrl}/edit/master/content${
-                mdx.fields.slug
-              }index.md`}
-            >
-              Edit this post on GitHub
-            </a>
-          </small>
-          <hr
-            style={{
-              margin: `24px 0`,
-            }}
-          />
-          <Bio />
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
-          >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </footer>
-      </section>
-    </div>
+    <Layout headTitle={post.frontmatter.title} isBlogPost="true">
+      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      
+      <div className="postMeta pageMargins">
+        {/* <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4> */}
+        <div class="text">
+        Written By: Mr. Chenzo<br/>
+        {formatPostDate(post.frontmatter.date)} {` • ${formatReadingTime(post.timeToRead)}`}
+        </div>
+        <Link to="/">
+          <Avatar width="100" />
+        </Link>
+      </div>
+      <div className="pageMargins">
+        {/* <h1>{post.frontmatter.title}</h1> */}
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
+    </Layout>
   )
 }
 
-export const pageQuery = graphql`
-  query BlogPostQuery($id: String) {
-    site {
-      siteMetadata {
-        siteUrl
-        githubUrl
-      }
-    }
-    mdx(id: { eq: $id }) {
-      fields {
-        slug
-      }
+export const query = graphql`
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
       timeToRead
       frontmatter {
         title
-        description
-        categories
-        date(formatString: "MMMM DD, YYYY")
-        canonical_link
+        date
       }
-      body
+      excerpt
     }
   }
 `

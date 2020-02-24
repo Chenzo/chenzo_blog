@@ -2,11 +2,13 @@
 title: "How to Solo Sloop in Sea of Thieves"
 description: "Learn to sail alone and survive"
 date: "2018-09-22T19:01:26.785Z"
-categories: []
+categories: [guide]
 published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
 redirect_from:
   - /how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
+order: 1
+author: chenzo
 ---
 
 Here’s the TL;DR rules right up front:
@@ -125,16 +127,10 @@ from [**ValyrianSteelYoGirl**](https://www.reddit.com/r/Seaofthieves/comments/9i
 
 Part Two is now online. Read it here:
 
-[**How to Solo Sloop in the Sea Of Thieves Part 2**  
-_How to sail alone and survive, part 2._medium.com](https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039 "https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039")[](https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039)
+[**How to Solo Sloop in the Sea Of Thieves Part 2**](/how-to-solo-sloop-in-the-sea-of-thieves-part-2/)
 
 ---
 
 > **“fair winds and following seas”**
 
-Find me on Twitter:
 
-[**Chenzo (@1Chenzo) | Twitter**  
-_The latest Tweets from Chenzo (@1Chenzo). HTML Wrangler, CSS Hack, Javascript Apologist, Video Game Snob, Dad - all…_twitter.com](https://twitter.com/1Chenzo "https://twitter.com/1Chenzo")[](https://twitter.com/1Chenzo)
-
-Watch me sail alone on Twitch:

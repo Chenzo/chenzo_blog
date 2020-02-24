@@ -2,8 +2,8 @@
 title: "The case against PvE only servers in Sea of Thieves"
 description: "I would like to submit that PvE only (or private servers*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the…"
 date: "2020-02-07T20:45:49.488Z"
-categories: []
-published: false
+categories: [opinion]
+published: true
 ---
 
 I would like to submit that PvE only (or private servers\*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the demise of the game.
@@ -82,7 +82,7 @@ It IS much easier, now. But it is nothing compared to being able to jump into a 
 
 Seriously, PvE only servers should be the LAST thing they should work on, and then have to worry about supporting.
 
-![omg, please let me just name my ship!The Killer Whale](./asset-2.jpeg)
+![omg, please let me just name my ship!](./asset-2.jpeg)
 
 Bug fixes, more Tall Tales, Captaincy update… _literally anything else_. Let’s fix and improve the game we all love instead of making a new one. 
 
@@ -92,7 +92,7 @@ Bug fixes, more Tall Tales, Captaincy update… _literally anything else_. Let�
 
 Take a look at this image:
 
-![All this treasure and no one to try and steal it.Tons of treasure easily acquired without any danger.](./asset-3.jpeg)
+![All this treasure and no one to try and steal it. Tons of loot easily acquired without any danger.](./asset-3.jpeg)
 
 There’s no way you could put all this down on an island in a real server. The time alone required to put it here is mind-boggling and there’s no way someone wouldn’t come by and see it and then spend the rest of their time trying to steal even a part of it. 
 
@@ -124,7 +124,4 @@ _\*caveat: I’m all for them releasing private servers for content creators for
 
 > **“fair winds and following seas”**
 
-I’ll happily have a civilized discussion about this in the comments or hit me up on the twitters: 
-
-[**Chenzo**  
-_The latest Tweets from Chenzo (@1Chenzo). Part-Time Pirate on @seaofthieves ☠️ Watch: https://t.co/z8wC4u4K4h ☠️…_twitter.com](https://twitter.com/1chenzo "https://twitter.com/1chenzo")[](https://twitter.com/1chenzo)
+I’ll happily have a civilized discussion about this in the comments or hit me up on the twitters: [Chenzo01](https://twitter.com/1chenzo)

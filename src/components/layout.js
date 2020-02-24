@@ -1,11 +1,35 @@
+
 import React from "react"
 import PropTypes from "prop-types"
+// import { useStaticQuery, graphql } from "gatsby"
 
-import "./layout.css"
+import Header from "./header"
+import Footer from "./footer"
+// import "./layout.css"
+import "./layout.scss"
 
-const Layout = ({ children }) => (
-  <main>{children}</main>
-)
+const Layout = ({ children, headTitle, isBlogPost }) => {
+  /* const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+ */
+
+  return (
+    <>
+      <Header siteTitle={headTitle} isBlogPost={isBlogPost} />
+      <div className="pageMargins-off">
+        <main>{children}</main>
+      </div>
+      <Footer />
+    </>
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

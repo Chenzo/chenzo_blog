@@ -2,11 +2,12 @@
 title: "How to Solo Sloop in the Sea Of Thieves Part 2"
 description: "How to sail alone and survive, part 2."
 date: "2018-12-16T00:44:14.774Z"
-categories: []
+categories: [guide]
 published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039
 redirect_from:
   - /how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039
+order: 2
 ---
 
 Here’s the TL;DR tips right up front:
@@ -143,10 +144,3 @@ AntiPrincess has a good point here. Use Skeletons as unwitting crewmates? Smart.
 ---
 
 > **“There are three sorts of people; those who are alive, those who are dead, and those who are at sea”**
-
-Find me on Twitter:
-
-[**Chenzo (@1Chenzo) | Twitter**  
-_The latest Tweets from Chenzo (@1Chenzo). HTML Wrangler, CSS Hack, Javascript Apologist, Video Game Snob, Dad — all…_twitter.com](https://twitter.com/1Chenzo "https://twitter.com/1Chenzo")[](https://twitter.com/1Chenzo)
-
-Watch me sail alone on Twitch:

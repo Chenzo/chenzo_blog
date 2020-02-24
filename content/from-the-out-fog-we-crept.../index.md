@@ -1,8 +1,8 @@
 ---
-title: "From the Out Fog, We Crept…"
+title: "From the Out Fog, We Crept"
 description: "The Continuing Tales from the Deck of the Holy Bartender…"
 date: "2018-12-13T15:01:10.311Z"
-categories: []
+categories: [tales]
 published: true
 canonical_link: https://medium.com/@Chenzo/from-the-out-fog-we-crept-ba626c16fc5b
 redirect_from:
