@@ -16,9 +16,11 @@ export default ({ data }) => {
       
       <div className="postMeta pageMargins">
         {/* <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4> */}
-        <div class="text">
-        Written By: Mr. Chenzo<br/>
+        <div className="text">
+        Written By: Mr. Chenzo<br />
         {formatPostDate(post.frontmatter.date)} {` • ${formatReadingTime(post.timeToRead)}`}
+
+
         </div>
         <Link to="/">
           <Avatar width="100" />

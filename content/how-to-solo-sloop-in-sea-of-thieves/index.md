@@ -2,13 +2,14 @@
 title: "How to Solo Sloop in Sea of Thieves"
 description: "Learn to sail alone and survive"
 date: "2018-09-22T19:01:26.785Z"
-categories: [guide]
+categories: ["guide"]
 published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
 redirect_from:
   - /how-to-solo-sloop-in-sea-of-thieves-cc0835fa5d84
 order: 1
 author: chenzo
+featuredImage: './asset-1.jpeg'
 ---
 
 Here’s the TL;DR rules right up front:

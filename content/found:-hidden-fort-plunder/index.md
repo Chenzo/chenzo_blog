@@ -2,11 +2,12 @@
 title: "Found: Hidden Fort Plunder"
 description: "The Continuing Tales from the Deck of the Holy Bartender…"
 date: "2019-04-02T18:41:07.658Z"
-categories: []
+categories: ["tales"]
 published: true
 canonical_link: https://medium.com/@Chenzo/found-hidden-fort-plunder-39b436cac4b3
 redirect_from:
   - /found-hidden-fort-plunder-39b436cac4b3
+featuredImage: './asset-1.jpeg'
 ---
 
 > The Continuing Tales from the Deck of the Holy Bartender…

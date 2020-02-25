@@ -2,11 +2,12 @@
 title: "Galleon, Sloop, Skellion, Fort, Brig, Kraken, Loot"
 description: "The Continuing Tales from the Deck of the Holy Bartender…"
 date: "2019-07-11T15:43:12.394Z"
-categories: [tales]
+categories: ["tales"]
 published: true
 canonical_link: https://medium.com/@Chenzo/galleon-sloop-skellion-fort-brig-kraken-loot-d3da009d0f63
 redirect_from:
   - /galleon-sloop-skellion-fort-brig-kraken-loot-d3da009d0f63
+featuredImage: './asset-1.jpeg'
 ---
 
 > The Continuing Tales from the Deck of the Holy Bartender…
