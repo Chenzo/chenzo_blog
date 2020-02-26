@@ -46,7 +46,7 @@ h2 {
 h3 {
     font-size: 1.4em;
     @include breakpoint($med) {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 }
 

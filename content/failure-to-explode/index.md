@@ -2,11 +2,12 @@
 title: "Failure To Explode"
 description: "The Continuing Tales from the Deck of the Holy Bartender…"
 date: "2019-07-16T19:30:14.094Z"
-categories: []
+categories: ["tales"]
 published: true
 canonical_link: https://medium.com/@Chenzo/failure-to-explode-2d3c2cd6aefa
 redirect_from:
   - /failure-to-explode-2d3c2cd6aefa
+featuredImage: './asset-1.jpeg'
 ---
 
 > The Continuing Tales from the Deck of the Holy Bartender…

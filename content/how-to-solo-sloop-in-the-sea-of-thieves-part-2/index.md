@@ -2,12 +2,13 @@
 title: "How to Solo Sloop in the Sea Of Thieves Part 2"
 description: "How to sail alone and survive, part 2."
 date: "2018-12-16T00:44:14.774Z"
-categories: [guide]
+categories: ["guide"]
 published: true
 canonical_link: https://medium.com/@Chenzo/how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039
 redirect_from:
   - /how-to-solo-sloop-in-the-sea-of-thieves-part-2-c5e410539039
 order: 2
+featuredImage: './asset-1.jpeg'
 ---
 
 Here’s the TL;DR tips right up front:
