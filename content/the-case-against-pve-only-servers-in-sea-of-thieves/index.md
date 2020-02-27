@@ -51,15 +51,17 @@ And getting chased — or chasing — is really the heart of the game. L
 
 > The Sea of Thieves is neither a single player game nor a casual game. 
 
-The threat of that ship on the horizon being an intelligent hostile force is a key difference between this game and a couch Co-op.
+The looming threat of that ship on the horizon possibly being a hostile force is a key difference between this game and a couch Co-op.
 
 Just joining a PvE server to grind out your rep/gold without a threat is a casual experience that doesn’t exist (and shouldn’t. We can talk about Alliance/Fleet servers a little farther down.)
 
 ---
 
-### **Pirate Legends that earned their legendary status on PvE servers are not true Legends…**
+### **PvE / Private servers should not give out gold or rep**  
 
-and the ability for them to acquire the same cosmetics and glory and status while sailing in a completely safe world is a slap in the face to pirates that earned their Purples in the dangerous waters of the open Sea of Thieves.
+> In a game where the only progression is cosmetic and commendations, those things become the currency. Those things are the score. The value of the thing is tied to how difficult it is to acquire. **If there's a way to acquire it easily, it's value is reduced.**
+
+Pirate Legends that earned their legendary status on PvE servers are not true Legends and the ability for them to acquire the same cosmetics and glory and status while sailing in a completely safe world is a slap in the face to pirates that earned their Purples in the dangerous waters of the open Sea of Thieves.
 
 Almost all pirates have had their ship sunk and loot stolen while climbing the ladder to PL. It’s part of the game. There’s something about the heart-racing flight across the sea while clutching your hard-earned booty as you flee from marauders that makes that Captains Chest worth more than it’s gold you get from the gold hoarders. Even the gut-wrenching feeling when you respawn to your ship during a battle, only to find it new and afloat somewhere else, your old ship sunk, your loot plundered is a bittersweet but a necessary part of the magic of Sea Of Thieves. It’s part of our shared experience. 
 
@@ -73,7 +75,7 @@ Alliance and shared rep was not a thing…
 
 Let me quote a grizzled veteran from our discord server:
 
-> (insert back in the day voice) I got my legend in May of 2018 when you still got Castaway chests on level 50 missions and you actually had to grind merchant. Because of the time it took you knew your islands, the sand bars, cannon placements. l made PL10 by August. For Athena missions to count you had to deliver animals. God forbid you got sunk and lost your cages and had to start over. You had to turn in the 96 chests. There was no “get Athena rep while not doing an Athena mission”. You couldn’t buy levels, you put in the time and got a good crew to pull all of you through it together.
+_(insert back in the day voice) I got my legend in May of 2018 when you still got Castaway chests on level 50 missions and you actually had to grind merchant. Because of the time it took you knew your islands, the sand bars, cannon placements. l made PL10 by August. For Athena missions to count you had to deliver animals. God forbid you got sunk and lost your cages and had to start over. You had to turn in the 96 chests. There was no “get Athena rep while not doing an Athena mission”. You couldn’t buy levels, you put in the time and got a good crew to pull all of you through it together._
 
 It IS much easier, now. But it is nothing compared to being able to jump into a PvE / Private server where you could alliance up with 3 or 4 or even 5 other crews also doing Athena missions. _And this is happening now via Fleet Servers…_
 
@@ -81,7 +83,7 @@ It IS much easier, now. But it is nothing compared to being able to jump into a 
 
 ### The Devs are busy. Let’s not give them something else to work on.
 
-Seriously, PvE only servers should be the LAST thing they should work on, and then have to worry about supporting.
+Seriously, PvE only servers should be the LAST thing they should work on, let alone then have to worry about supporting said servers.
 
 ![omg, please let me just name my ship!](./asset-2.jpeg)
 
@@ -100,12 +102,19 @@ There’s no way you could put all this down on an island in a real server. The 
 People that build and sail in Alliance/Fleet servers are, imo, as bad as boosters and perhaps, hackers. 
 
 They are abusing game mechanics to make themselves safe. 
-
+<!-- 
 Pirates that have gained Pirate Legend status in these servers are not true Pirate Legends. They are Paper Legends. 
 
-I know several Pirates that hang out on fleet servers. They’re good people and I’m not hating on them. But I do think they’re cheating themselves (and the rest of us.)
+I know several Pirates that hang out on fleet servers. They’re good people and I’m not hating on them. But I do think they’re cheating themselves (and the rest of us.) -->
 
-> I mean the hashtag is #bemorepirate not #besafepirate or #leavemealonepirate why not actually be a pirate?
+I mean the hashtag is _#bemorepirate_ not #besafepirate or #leavemealonepirate 
+
+Why not actually be a pirate?
+
+
+
+
+<!-- 
 
 ---
 
@@ -116,13 +125,14 @@ Let me answer some common rebukes to the no PvE server mindset:
 **What about Families? What about Children?** The game is rated T. Families DO sail and cause a ruckus. But trying to make the game E is, again, changing the game for the worse. Any teen should have no trouble sailing the seas. (And I suspect many a T pirate has sunk me.)
 
 **What about a PvE Free Neutral Area like the Sea Dog Tavern in the middle of the map?** This would be abused by griefers. They would circle it forever. They would run to it when attacked. 
+ --> 
+
+
+ **“fair winds and following seas”**
 
 ---
 
 _\*caveat: I’m all for them releasing private servers for content creators for filming or racing or games if you don’t accrue gold or rep._
 
----
 
-> **“fair winds and following seas”**
-
-I’ll happily have a civilized discussion about this in the comments or hit me up on the twitters: [Chenzo01](https://twitter.com/1chenzo)
+<!-- I’ll happily have a civilized discussion about this, hit me up on the twitters: [Chenzo01](https://twitter.com/1chenzo) -->
