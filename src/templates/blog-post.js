@@ -12,7 +12,7 @@ export default ({ data }) => {
 
   return (
     <Layout headTitle={post.frontmatter.title} isBlogPost="true">
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <SEO title={post.frontmatter.title} description={post.excerpt} image={post.frontmatter.featuredImage.childImageSharp.fixed.src}  />
       
       <div className="postMeta pageMargins">
         {/* <h4><Link to="/">home</Link> | {post.frontmatter.title}</h4> */}
@@ -42,6 +42,13 @@ export const query = graphql`
       frontmatter {
         title
         date
+        featuredImage {
+          childImageSharp {
+            fixed(width: 600, height: 350, quality: 90) {
+              src
+            }
+          }
+        }
       }
       excerpt
     }

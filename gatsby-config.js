@@ -3,6 +3,7 @@ module.exports = {
     title: `Mr. Chenzo's Writings on the Sea Of Theives`,
     description: `The musings about the Sea Of Thieves by the old scallywag, Chenzo`,
     author: `@1Chenzo`,
+    siteUrl: `https://chenzo.netlify.com`
   },
   plugins: [
     `gatsby-plugin-sass`,
