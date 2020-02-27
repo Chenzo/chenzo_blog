@@ -1,20 +1,20 @@
 ---
 title: "The case against PvE only servers in Sea of Thieves"
-description: "I would like to submit that PvE only (or private servers*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the…"
+description: "I would like to submit that PvE-only (or private servers*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the demise of the game"
 date: "2020-02-07T20:45:49.488Z"
 categories: ["opinion"]
 published: true
 featuredImage: './asset-1.jpeg'
 ---
 
-I would like to submit that PvE only (or private servers\*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the demise of the game.
+I would like to submit that PvE-only (or private servers\*) would be a bad thing for Rare to do in Sea of Thieves and ultimately lead to the demise of the game.
 
 ---
 
 The reasons against are
 
 1.  The game was built from the start as both **PvE and PvP together** in a **shared** world. 
-2.  Players are playing on PvE only servers that earn gold and rep cheapen the accomplishments of those who play the game with _all_ the game’s threats.
+2.  Players are playing on PvE-only servers that earn gold and rep cheapen the accomplishments of those who play the game with _all_ the game’s threats.
 3.  Time building and supporting PvE servers removes the Devs from the time where they could be adding new content or fixing bugs 
 
 ---
@@ -25,9 +25,7 @@ The game’s description in the MS Store contains this sentence… “_Sea of Th
 
 If we start splitting SoT into separate servers based on individual playstyles, we’d lose a lot of the magic that makes this game great.
 
-The game is PvPvE. It is built on the two pillars of PvE and PvP. If you take one away the game becomes something else. Something less. And we would be worse for it.
-
-PvE only servers would change our favorite pirate game to a Fetch Quest Sailing Simulator game…
+The game is PvPvE. It is built on the two pillars of PvE and PvP. If you take one away the game becomes something else. Something less. PvE-only servers would change our favorite pirate game to a Fetch Quest Sailing Simulator game…
 
 …and then the original game no longer exists. We need to have actual pirates in our pirate game.
 
@@ -86,7 +84,7 @@ It IS much easier, now. But it is nothing compared to being able to jump into a 
 
 ### The Devs are busy. Let’s not give them something else to work on.
 
-Seriously, PvE only servers should be the LAST thing they should work on, let alone then have to worry about supporting said servers.
+Seriously, PvE-only servers should be the LAST thing they should work on, let alone then have to worry about supporting said servers.
 
 ![omg, please let me just name my ship!](./asset-2.jpeg)
 
