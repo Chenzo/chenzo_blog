@@ -13,11 +13,12 @@ blockquote {
     letter-spacing: -.36px;
     line-height: 44.4px;
     overflow-wrap: break-word;
-    color: rgba(0,0,0,.68);
-    border-left: 3px solid rgba(0,0,0,.84);
+    //color: rgba(0,0,0,.68);
+    border-left: 3px solid $blue_2;
     padding-left: 20px;
     margin: 25px 0 33px -8px;
     padding-bottom: 2px;
+    color: $blue_2;
 
     @include breakpoint($med) {
         font-size: 1.3em;

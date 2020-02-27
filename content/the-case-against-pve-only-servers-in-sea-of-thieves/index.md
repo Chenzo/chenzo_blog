@@ -59,7 +59,10 @@ Just joining a PvE server to grind out your rep/gold without a threat is a casua
 
 ### **PvE / Private servers should not give out gold or rep**  
 
-> In a game where the only progression is cosmetic and commendations, those things become the currency. Those things are the score. The value of the thing is tied to how difficult it is to acquire. **If there's a way to acquire it easily, it's value is reduced.**
+In a game where the only progression is cosmetic and commendations, those things become the currency. Those things are the score. 
+
+> The value of the thing is tied to how difficult it is to acquire. **If there's a way to acquire it easily, it's value is reduced.**
+
 
 Pirate Legends that earned their legendary status on PvE servers are not true Legends and the ability for them to acquire the same cosmetics and glory and status while sailing in a completely safe world is a slap in the face to pirates that earned their Purples in the dangerous waters of the open Sea of Thieves.
 
