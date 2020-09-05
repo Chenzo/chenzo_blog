@@ -3,7 +3,7 @@ title: "Sea of Thieves Axioms"
 description: "or things that took me 2 years to learn on the seas. A small list of things that are true."
 date: "2020-06-08T20:45:49.488Z"
 categories: ["opinion"]
-published: false
+published: true
 featuredImage: './asset-1.jpeg'
 ---
 
