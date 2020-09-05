@@ -59,7 +59,7 @@ _The latest Tweets from Chenzo (@1Chenzo). Part-Time Pirate on @seaofthieves; Fu
 
 ---
 
-Or join us on Capt. Logun’s Keelhauled PodCast Discord: [https://discordapp.com/invite/V7Cd4Kp](https://discordapp.com/invite/V7Cd4Kp)
+Or join us on the Gentlemen of Fortune's Discord: [https://discord.gg/DuR7U54](https://discord.gg/DuR7U54)
 
 ---
 
